@@ -1,0 +1,16 @@
+img#panda1{
+    float: right;
+}
+
+img#panda2{
+    float: left;
+}
+
+img#panda{
+    float: none;
+}
+
+p:last-child{
+    background-color: dodgerblue;
+    clear: right;
+}
