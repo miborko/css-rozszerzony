@@ -1,0 +1,8 @@
+#tlo-obrazek {
+/*	background-color: bisque;*/
+    background-image: url("../img/panda1.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 80% 80%;
+    background-attachment: fixed;
+}
