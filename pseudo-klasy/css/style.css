@@ -1,0 +1,36 @@
+a#link-2:link {
+    color: palevioletred;
+}
+a:visited{
+    color: deeppink;
+}
+
+a#link-4:hover{
+    background-color: coral;
+}
+
+div.tabela > div.klient:first-child {
+    background-color: royalblue;
+}
+
+div.tabela div.klient:last-child{
+    background-color: forestgreen;
+}
+
+div.tabela :nth-child(5){
+    background-color: saddlebrown;
+}
+
+div.tabela :nth-child(4n + 3){
+    background-color: darkcyan;
+}
+
+
+
+
+
+
+
+
+
+
