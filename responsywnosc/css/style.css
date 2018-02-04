@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0;
+}
+
+.box {
+    font-size: 10px;
+    height: 500px;
+    width: 25%;
+    padding: 50px;
+    float: left;
+    border: 10px solid orange;
+}
+
+@media (max-width:750px) {
+    .box {
+        width: 100%;
+        color: red;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 900px) {
+    .box {
+        width: 50%;
+        color: green;
+    }
+}
