@@ -3,7 +3,7 @@ figure{
     width: 300px;
     animation-name: zmien-szerokosc;
     animation-duration: 4s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 15;
     animation-timing-function: ease-in;
 }
 
@@ -12,6 +12,7 @@ figure img{
     transition: all 4s;
 }
 
+/*
 @keyframes zmien-szerokosc{
     0%, 100%{
         width: 400px;
@@ -20,6 +21,36 @@ figure img{
         width: 650px;
     }
 }
+*/
+
+@keyframes koloruj{
+    0%{
+        background-color: #fff;
+    }
+    
+    25%{
+        background-color: hotpink;
+    }
+    50%{
+        background-color: maroon;
+    }
+    75%{
+        background-color: chocolate;
+    }
+    100%{
+        background-color: #ccc;
+    }
+}
+
+body{
+    animation-name: koloruj;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 3s;
+    animation-fill-mode:forwards;
+}
+
+
 
 
 
