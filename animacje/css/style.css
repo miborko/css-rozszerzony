@@ -1,0 +1,34 @@
+figure{
+    margin: 40px auto;
+    width: 300px;
+    animation-name: zmien-szerokosc;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in;
+}
+
+figure img{
+    width: 100%;
+    transition: all 4s;
+}
+
+@keyframes zmien-szerokosc{
+    0%, 100%{
+        width: 400px;
+    }
+    40%, 60%{
+        width: 650px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
